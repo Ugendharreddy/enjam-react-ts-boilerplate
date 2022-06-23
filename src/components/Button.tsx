@@ -6,16 +6,14 @@ export interface IButtonProps extends React.DetailedHTMLProps<React.ButtonHTMLAt
 }
 
 export const Button: React.FunctionComponent<IButtonProps> = (props) => {
-    const { children, backgroundColor, color, style } = props;
+    const { children } = props;
 
-    let _style: React.CSSProperties = style || {};
-
-    /** Override Defaults */
-    if (backgroundColor && _style) _style.backgroundColor = backgroundColor;
-    if (color && _style) _style.color = color;
+    const handleClick = () => {
+        console.log("Button Clicked")
+    }
 
     return (
-        <button style={_style} {...props}>
+        <button {...props} onClick={() => handleClick()}>
             {children}
         </button>
     );
