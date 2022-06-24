@@ -1,0 +1,32 @@
+{
+  "name": "enjam-react-ts-boilerplate",
+  "version": "1.0.2",
+  "description": "",
+  "main": "lib/index.ts",
+  "scripts": {
+    "build": "rm -rf lib && tsc"
+  },
+  "files": [
+    "lib"
+  ],
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Ugendharreddy/enjam-react-ts-boilerplate.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Ugendharreddy/enjam-react-ts-boilerplate/issues"
+  },
+  "homepage": "https://github.com/Ugendharreddy/enjam-react-ts-boilerplate#readme",
+  "devDependencies": {
+    "@types/react": "^18.0.14",
+    "@types/react-dom": "^18.0.5",
+    "typescript": "^4.7.4"
+  },
+  "dependencies": {
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0"
+  }
+}
