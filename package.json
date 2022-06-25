@@ -1,10 +1,11 @@
 {
   "name": "enjam-react-ts-boilerplate",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "",
   "main": "lib/index.ts",
   "scripts": {
-    "build": "rm -rf lib && tsc"
+    "build": "rm -rf lib && tsc",
+    "prepare" : "npm run build"
   },
   "files": [
     "lib"
